@@ -1,0 +1,28 @@
+# 파이썬 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# 가상환경
+.venv/
+
+# OCR 캐시
+.ocr_cache/
+
+# Chrome 프로필 (로그인 세션 - 개인 정보)
+chrome_profile/
+
+# 투표 이미지 (개인 정보)
+vote/*.jpg
+vote/*.jpeg
+vote/*.png
+
+# 생성된 참가자 CSV (개인 정보)
+participants.csv
+
+# macOS
+.DS_Store
+
+# 디버그 파일
+debug_*.html
+debug_*.png
